@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 .nav {
     width: 100%;
     position: fixed;
@@ -169,3 +174,101 @@ h2 {
     padding-bottom: 10%;
 }
 
+.contain-papa {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 35%;
+}
+
+.contain-papa > img {
+  border: 1px solid black;
+  padding: 1%;
+  width: 90%;
+  mask-image: linear-gradient(black 80%, transparent 100%);
+  background-image: ;
+}
+
+.contain-papa img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 6px 12px #000000;
+}
+
+.img-container2 {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    top: 20%;
+}
+
+.point {
+    width: 50%;
+    bottom: 0;
+    left: 50%;
+    mask-image: linear-gradient(transparent, black, black, transparent);
+    position: absolute;
+
+}
+
+.band {
+    width: 50%;
+    top: 80%;
+    mask-image: linear-gradient(transparent, black, black, transparent);
+    position: absolute;
+}
+
+.body3 {
+    width: 20%;
+    z-index: 3;
+    padding-left: 15%;
+    font-size: 1.25em;
+    position: absolute;
+    bottom: -550%;
+}
+
+.body4 {
+    width: 20%;
+    z-index: 3;
+    padding-left: 63%;
+    font-size: 1.25em;
+    position: absolute;
+    text-align: right;
+    top: 670%;
+}
+
+.disco {
+    font-family: "katibeh";
+    font-size: 2em;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    top: 778%;
+    left: 2%;
+    right: -17%;
+    transform: translate(0, -50%);
+    user-select: none;
+}
+
+#image-track .car-image {
+    width: 70vmin;
+    height: 70vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+
+.timeline {
+    font-family: "katibeh";
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
