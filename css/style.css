@@ -92,8 +92,8 @@ h1 {
 }
 
 h2 {
-    font-family: "katibeh";
-    font-size: 3em;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
     text-align: center;
     padding-top: 0%;
     margin: 0;
@@ -103,10 +103,11 @@ h2 {
 
 .title {
     font-family: "katibeh";
-    font-size: 3.5em;
-    text-align: center;
+    font-size: 6em;
+    text-align: left;
     padding-top: 10%;
     padding-bottom: 5%;
+    padding-left: 20%;
     position: relative;
 }
 
@@ -164,7 +165,7 @@ h2 {
     width: 20%;
     z-index: 3;
     padding-left: 63%;
-    bottom: -220%;
+    bottom: -130%;
     font-size: 1.25em;
     position: absolute;
     text-align: right;
@@ -245,9 +246,11 @@ h2 {
 
 .disco {
     font-family: "katibeh";
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
     position: relative;
+    padding-top: 50%;
+    padding-bottom: 10%;
 }
 
 #image-track {
@@ -259,7 +262,7 @@ h2 {
     transform: translate(0, -50%);
     user-select: none;
     position: relative;
-    padding-top: 60%;
+    padding-top: 15%;
 }
 
 #image-track .car-image {
