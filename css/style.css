@@ -88,23 +88,27 @@ h1 {
     padding-bottom: 0%;
     margin: 0;
     padding-top: 5%;
+    position: relative;
 }
 
 h2 {
-    font-family: "katibeh";
-    font-size: 3em;
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
     text-align: center;
     padding-top: 0%;
     margin: 0;
     padding-bottom: 5%;
+    position: relative;
 }
 
 .title {
     font-family: "katibeh";
-    font-size: 3.5em;
-    text-align: center;
+    font-size: 6em;
+    text-align: left;
     padding-top: 10%;
     padding-bottom: 5%;
+    padding-left: 20%;
+    position: relative;
 }
 
 .papa-sing {
@@ -126,6 +130,7 @@ h2 {
     width: 10%;
     padding-left: 45%;
     padding-top: 5%;
+    position: relative;
 }
 
 .body {
@@ -160,7 +165,7 @@ h2 {
     width: 20%;
     z-index: 3;
     padding-left: 63%;
-    bottom: -220%;
+    bottom: -130%;
     font-size: 1.25em;
     position: absolute;
     text-align: right;
@@ -172,6 +177,7 @@ h2 {
     text-align: center;
     padding-top: 45%;
     padding-bottom: 10%;
+    position: relative;
 }
 
 .contain-papa {
@@ -182,6 +188,7 @@ h2 {
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 35%;
+    position: relative;
 }
 
 .contain-papa > img {
@@ -226,7 +233,6 @@ h2 {
     padding-left: 15%;
     font-size: 1.25em;
     position: absolute;
-    bottom: -550%;
 }
 
 .body4 {
@@ -236,31 +242,32 @@ h2 {
     font-size: 1.25em;
     position: absolute;
     text-align: right;
-    top: 670%;
 }
 
 .disco {
     font-family: "katibeh";
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
-    padding-top: 35%;
-    padding-bottom: 5%;
+    position: relative;
+    padding-top: 50%;
+    padding-bottom: 10%;
 }
 
 #image-track {
     display: flex;
     gap: 4vmin;
     position: absolute;
-    top: 778%;
     left: 2%;
     right: -17%;
     transform: translate(0, -50%);
     user-select: none;
+    position: relative;
+    padding-top: 15%;
 }
 
 #image-track .car-image {
-    width: 70vmin;
-    height: 70vmin;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: 100% center;
 }
@@ -271,4 +278,5 @@ h2 {
     text-align: center;
     padding-top: 35%;
     padding-bottom: 5%;
+    position: relative;
 }
