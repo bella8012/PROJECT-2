@@ -46,6 +46,11 @@
   .container {
     width: 85%;
     padding: 0; }
+
+  .body {
+    flex-direction: column;
+  }
+
 }
 
 /* For devices larger than 550px */

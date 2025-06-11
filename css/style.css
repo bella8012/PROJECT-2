@@ -160,7 +160,7 @@ h2 {
     width: 20%;
     z-index: 3;
     padding-left: 15%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
     position: absolute;
 }
 
@@ -188,7 +188,7 @@ h2 {
     z-index: 3;
     padding-left: 63%;
     bottom: -20%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
     position: absolute;
     text-align: right;
 }
@@ -256,14 +256,14 @@ h2 {
     padding-left: 15%;
     padding-top: 1%;
     padding-bottom: -200%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
 }
 
 .body4 {
     width: 20%;
     z-index: 3;
     padding-left: 63%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
     position: absolute;
     text-align: right;
 }
@@ -379,7 +379,7 @@ h6 {
     padding-left: 9%;
     padding-top: 1%;
     padding-bottom: -200%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
 }
 
 h7 {
